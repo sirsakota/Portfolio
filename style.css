@@ -1,8 +1,82 @@
 * {
-    background-color:beige;
     font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+p, pre {
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, h3 {
+    background-color: palegreen;
 }
 
 body {
     background-color: darkseagreen;
 }
+
+ul {
+
+    background: mediumseagreen;
+    border-style: solid;
+    border-color: #26734d; 
+    
+}
+
+li:hover {
+    background: seagreen;
+}
+
+li {
+    float: left;
+    padding: 10px 30px 10px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+/*
+.div1 {
+    background: mediumseagreen;
+  }
+  
+  .div2 {
+    background: seagreen;
+  }
+  
+  .div3 {
+    background: green;
+  }
+
+  .div4 {
+    background: forestgreen;
+  }
+  */
+
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:visited {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #267326;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: mediumaquamarine;
+    background-color: transparent;
+    text-decoration: underline;
+  }
