@@ -8,6 +8,8 @@ p, pre {
 
 h1 {
     text-align: center;
+    display: block;
+    background: #267326;
 }
 
 h2, h3 {
@@ -19,23 +21,36 @@ body {
 }
 
 ul {
-
-    background: mediumseagreen;
-    border-style: solid;
-    border-color: #26734d; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: mediumseagreen;
     
 }
 
-li:hover {
-    background: seagreen;
-}
+/*li:hover {
+    background: #2e8b57;
+} */
 
 li {
     float: left;
-    padding: 10px 30px 10px 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    border-right: 1px solid #267326;
+}
+
+li a {
+  display: block;
+  padding: 20px 30px;
+  background: mediumseagreen;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #2e8b57;
+}
+
+.active {
+  background-color: #194d30;
 }
 
 /*
@@ -69,11 +84,11 @@ li {
     text-decoration: none;
   }
   
-  a:hover {
-    color: #267326;
+  /* a:hover {
+    color: #d9f2e4;
     background-color: transparent;
     text-decoration: underline;
-  }
+  } */
   
   a:active {
     color: mediumaquamarine;
