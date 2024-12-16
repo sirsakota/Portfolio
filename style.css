@@ -1,19 +1,29 @@
 * {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-p, pre {
-    background-color: beige;
-}
 
 h1 {
     text-align: center;
     display: block;
     background: #267326;
+    padding: 30px;
+    outline-style: groove;
+    outline-color: #194d30;
+    text-shadow: 2px 2px yellowgreen;
+    font-weight: bold;
 }
 
-h2, h3 {
+h2 {
     background-color: palegreen;
+    margin: 20px;
+    padding: 20px 35px;
+}
+
+h3 {
+  background-color: #b5fcb5;
+  margin: 8px 30px;
+  padding: 10px 20px;
 }
 
 body {
@@ -45,53 +55,71 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #2e8b57;
-}
-
 .active {
   background-color: #194d30;
 }
 
-/*
-.div1 {
-    background: mediumseagreen;
-  }
-  
-  .div2 {
-    background: seagreen;
-  }
-  
-  .div3 {
-    background: green;
-  }
+li a:hover:not(.active) {
+  background-color: #2e8b57;
+}
 
-  .div4 {
-    background: forestgreen;
-  }
-  */
+
+.div1 {
+  background: beige;
+  text-align: left;
+  margin: 20px 30px;
+  padding: 10px 20px;
+}
+  
+.div2 {
+    background: beige;
+    text-align: left;
+    margin: 20px 30px;
+    padding: 10px 20px;
+}
+  
+.div3 {
+    background: beige;
+    text-align: left;
+    margin: 20px 30px;
+    padding: 10px 20px;
+}
+
+.div4 {
+    background: beige;
+    text-align: left;
+    margin: 20px 30px;
+    padding: 10px 20px;
+}
+
+.div5 {
+  background: beige;
+  text-align: left;
+  margin: 10px 30px;
+  padding: 10px 20px;
+}
+  
 
   a:link {
     color: green;
     background-color: transparent;
     text-decoration: none;
     display: inline-block;
+    text-shadow: 1px 1px #006600;
   }
   
   a:visited {
-    color: yellow;
+    color: #79ff4d;
     background-color: transparent;
     text-decoration: none;
   }
   
-  /* a:hover {
-    color: #d9f2e4;
+   a:hover {
     background-color: transparent;
     text-decoration: underline;
-  } */
+  } 
   
   a:active {
-    color: mediumaquamarine;
     background-color: transparent;
     text-decoration: underline;
   }
