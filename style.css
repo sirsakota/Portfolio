@@ -3,10 +3,11 @@
 }
 
 
+
 h1 {
     text-align: center;
     display: block;
-    background: #267326;
+    background: #267346;
     padding: 30px;
     outline-style: groove;
     outline-color: #194d30;
@@ -53,6 +54,7 @@ li a {
   padding: 20px 30px;
   background: mediumseagreen;
   text-decoration: none;
+  text-shadow: 1px 1px #103220;
 }
 
 .active {
@@ -100,30 +102,39 @@ li a:hover:not(.active) {
 }
   
 
-  a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-    display: inline-block;
-    text-shadow: 1px 1px #006600;
-  }
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:visited {
+  color: #07914a;
+}
+
   
-  a:visited {
-    color: #79ff4d;
-    background-color: transparent;
-    text-decoration: none;
-  }
+a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+} 
   
-   a:hover {
-    background-color: transparent;
-    text-decoration: underline;
-  } 
-  
-  a:active {
-    background-color: transparent;
-    text-decoration: underline;
-  }
+a:active {
+  background-color: transparent;
+  text-decoration: underline;
+}
 
   .link1 {
     
   }
+
+  .link2 {
+    text-shadow: none;
+    color: black;
+  }
+
+.contact {
+  font-weight: bold;
+  background-color: #91eb91;
+  padding: 10px;
+}
